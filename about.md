@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# Computer Science Interview Prep @ the University of Georgia
+# Computer Science Interview Prep @ UGA
 
 Hello World
