@@ -1,4 +1,4 @@
-# CSIP@UGA Homepage
+# CSIP @ UGA Homepage
 
 Hello World
 
