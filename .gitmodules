@@ -1,3 +1,4 @@
-[submodule "_posts/problems"]
+[submodule "_problems"]
+	branch = master
 	path = _problems
 	url = https://github.com/csip-uga/archive
