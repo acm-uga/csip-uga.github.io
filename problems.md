@@ -1,8 +1,8 @@
 ---
-layout: category_index
+layout: listing
 title: Problems
 permalink: /problems/
-category_name: problems
+collection: problems
 ---
 
 <!--
@@ -16,6 +16,6 @@ Global arguments:
 		The url for the page.
 
 Layout arguments:
-	category_name:
-		The content will be populated by posts of this category.
+	collection:
+		The content will be populated by posts in this collection.
 -->
