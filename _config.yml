@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CSIP@UGA
-description: CS Interview Prep
+title: CSIP @ UGA
+description: Computer Science Interview Prep
 url: "https://csip-uga.github.io"
-baseurl: "/"
+baseurl: "" # Empty string to use the domain's root
 github_username: csip-uga
-github_repo: "" # Empty string links to the organization's profile
+github_repo: ""  # Empty string links to the organization's profile
 
 # # Optional social link, you can choose from the following options:
 # # twitter, instagram, medium, or dribbble
@@ -26,8 +26,11 @@ github_repo: "" # Empty string links to the organization's profile
 # social_username: jekyllrb
 
 # Set theme color here
-# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
+# Choose from: black, blue, gray, magenta, orange, red, white, and yellow.
 theme_color: black
 
 # Build settings
 markdown: kramdown
+
+collections:
+    - problems
