@@ -11,6 +11,6 @@ layout: page
 <div class="container mx-auto">
   {% assign posts = site[collection] | sort: 'date' | reverse %}
   {% for post in posts %}
-    {% include preview.html %}
+    {% include post-preview.html %}
   {% endfor %}
 </div>
