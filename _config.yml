@@ -18,10 +18,10 @@ description: CS Interview Prep
 url: "https://csip-uga.github.io"
 baseurl: "/"
 github_username: csip-uga
-github_repo: csip-uga.github.io
+github_repo: "" # Empty string links to the organization's profile
 
 # # Optional social link, you can choose from the following options:
-# # twitter (default), instagram, medium, or dribbble
+# # twitter, instagram, medium, or dribbble
 # social_link: twitter
 # social_username: jekyllrb
 
