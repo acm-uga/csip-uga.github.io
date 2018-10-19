@@ -8,9 +8,11 @@ layout: page
 
 {{ content }}
 
-<div class="container mx-auto">
+<div class="container mx-auto px-2 py-4">
   {% assign posts = site[collection] | sort: 'date' | reverse %}
   {% for post in posts %}
-    {% include post-preview.html %}
+    {% if site.future or post.date < site.time %}
+      {% include post-preview.html %}
+    {% endif %}
   {% endfor %}
 </div>
