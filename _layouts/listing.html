@@ -12,7 +12,7 @@ layout: page
   {% assign posts = site[collection] | sort: 'date' | reverse %}
   {% for post in posts %}
     {% if site.future or post.date < site.time %}
-      {% include post-preview.html %}
+      {% include post-preview.html post=post %}
     {% endif %}
   {% endfor %}
 </div>

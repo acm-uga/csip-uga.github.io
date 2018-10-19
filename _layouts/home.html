@@ -55,9 +55,10 @@
       </header>
 
       <div class="container mx-auto px-2 py-4">
-        {% for post in site.posts %}
+        {% assign posts = site.posts | sort: 'date' | reverse %}
+        {% for post in posts %}
           {% if site.future or post.date < site.time %}
-            {% include post-preview.html %}
+            {% include post-preview.html post=post %}
           {% endif %}
         {% endfor %}
       </div>
