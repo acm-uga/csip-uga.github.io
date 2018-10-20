@@ -25,7 +25,7 @@ gem install jekyll github-pages
 
 # Now you can launch the development server.
 # The dev server will automatically rebuild the site as you edit files.
-jekyll serve
+jekyll serve --future
 
 # Publish your changes by pushing push to GitHub.
 git commit -am 'Foo the bar'
@@ -39,6 +39,33 @@ The following documentation may be useful.
 - https://jekyllrb.com/docs/
 
 
+## `rebuild.sh`
+
+Most of the maintenance tasks below are encapsulated by the `rebuild.sh` script. Use this script to make a new maintenance commit. If you are satisfied with the results, push to GitHub to publish.
+
+The script expects to run the root of the git repo.
+
+```shell
+# Create a maintenance commit.
+./rebuild.sh
+
+# Publish the changes.
+git push
+```
+
+
+## Future Posts
+
+Jekyll will not render pages dated in the future when the site is built. This can be useful for developing problem sets or blog posts. The catch is that you must manually tigger a site rebuild after a page transitions from future to past. To trigger a rebuild, push a new (possibly empty) commit to GitHub:
+
+```shell
+git commit --allow-empty -m 'Rebuild site'
+git push
+```
+
+This task is automatically handled by `rebuild.sh`.
+
+
 ## Adding Problems
 
 We track the [CSIP problem archive][csip-uga/archive] as a git submodule under the `_problems` directory, and Jekyll is configured to generate pages from the problem archive automatically. To rebuild the website with the latest problems, simply update the submodule.
@@ -47,12 +74,12 @@ We track the [CSIP problem archive][csip-uga/archive] as a git submodule under t
 # Sync _problems with the master branch of csip-uga/archive.
 git submodule update --remote _problems
 
-# Publish the new problems by pushing push to GitHub.
+# Publish the new problems.
 git commit _problems -m 'Sync with problem archive'
 git push
 ```
 
-The commands to update the archive and make a new commit are conveniently saved as `sync_problems.sh`.
+This task is automatically handled by `rebuild.sh`.
 
 [csip-uga/archive]: https://github.com/csip-uga/archive
 
