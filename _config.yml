@@ -50,6 +50,7 @@ defaults:
       type: pages
     values:
       layout: page
+      weight: 50
   -
     scope:
       type: posts

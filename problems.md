@@ -3,6 +3,7 @@ layout: listing
 title: Problems
 permalink: /problems/
 collection: problems
+weight: 2
 ---
 
 <!--

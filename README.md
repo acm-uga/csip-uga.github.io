@@ -84,6 +84,11 @@ This task is automatically handled by `rebuild.sh`.
 [csip-uga/archive]: https://github.com/csip-uga/archive
 
 
+## Sorting the Header
+
+The header of all pages includes a list of top-level pages. These pages are sorted by weight where the heavier pages sink to the end of the list. You can specify the weight of a page in its front matter. The default weight is 10.
+
+
 ## Swiss Theme
 
 This site uses the great [Swiss Jekyll Theme][broccolini/swiss] by [@broccolini][broccolini]. The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

@@ -6,7 +6,8 @@
   </div>
   <div class="right sm-width-full">
     <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
-      {% for subpage in site.pages %}
+      {% assign pages = site.pages | sort: "weight" %}
+      {% for subpage in pages %}
         {% if subpage.title %}
         <li class="inline-block">
           <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ subpage.url | prepend: site.baseurl }}">
