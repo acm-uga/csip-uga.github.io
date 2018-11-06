@@ -4,23 +4,17 @@ permalink: /Resume_Guide/
 weight: 1
 ---
 
-CSIP Resume Guide
-
-Some words of wisdom to improve your resume. Compiled from our own experiences, CS Career Questions on Reddit, and other sources….
-
-**Input from Dave**
-
-**dave.barry@uga.edu**
+Some words of wisdom to improve your resume. Compiled from our own experiences, CS Career Questions on Reddit, and other sources…
 
 ## General Advice
 
-* **Lose the objectives. **These rarely make sense on any resume because they should be fairly obvious.
+* **Lose the objectives.** These rarely make sense on any resume because they should be fairly obvious.
 
-* **Summaries are not always necessary. **Summaries are better for people who need to condense a long career into a concise blurb. If you have a one-page resume, it's probably not necessary to include a summary.
+* **Summaries are not always necessary.** Summaries are better for people who need to condense a long career into a concise blurb. If you have a one-page resume, it's probably not necessary to include a summary.
 
 * **If you are a citizen of the country you are applying for a job in but your name or background could imply you aren't, it might be best to list "[X] Citizen" on your resume.**
 
-* **Aim for a single page. **Every recruiter I’ve spoken to hates resumes from new grads that are full of fluff. Put down the important things and it should only take a page. Try to focus on content that is CS related.
+* **Aim for a single page.** Every recruiter I’ve spoken to hates resumes from new grads that are full of fluff. Put down the important things and it should only take a page. Try to focus on content that is CS related.
 
 * **Order sections by relevance and strength of your information.** Generally, a resume will include your name and contact information at the top, followed by a skills section and an experience section. Some people include a projects section or a publications section as well, if they have strong projects or publications. If you are a current student or a new/recent graduate, an education section should be at the top of the resume; otherwise, it should be at the bottom of the resume.
 
