@@ -5,7 +5,9 @@ weight: 1
 ---
 
 A central directory of posted resources ranging from free online books to platforms for further coding practice.
+- [Learning Python](#learning-python)
 
+***
 ## Learning Python
 Python 3.x is our recommended language for technical interviews because of it's simplicity and brevity. 
 
