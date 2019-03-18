@@ -2,7 +2,3 @@
 	branch = master
 	path = _problems
 	url = https://github.com/csip-uga/archive
-[submodule "_challenges/challenge-001"]
-	path = _challenges/challenge-001
-	url = https://github.com/csip-uga/challenge-001.git
-	branch = master
