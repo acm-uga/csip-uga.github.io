@@ -16,8 +16,8 @@
 # https://github.com/broccolini/swiss
 
 title: CSIP @ UGA
-description: Computer Science Interview Prep
-url: "https://csip-uga.github.io"
+description: Computer Science Interview Prep - Mondays @ 5:30pm in Boyd 328
+url: "https://csip-uga.github.io"  # TODO: Switch to csip.uga.edu (#1)
 theme_color: black  # black, blue, gray, magenta, orange, red, white, or yellow.
 github_username: csip-uga
 github_repo: ""
