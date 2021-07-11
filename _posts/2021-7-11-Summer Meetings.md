@@ -6,7 +6,8 @@ If you're interested in joining our virtual summer sessions, find us on our Disc
 
 <iframe src="https://discord.com/widget?id=804221036278972416&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-[![Flyer of ACM-CSIP Summer 2021 Meeting Dates](_posts\ACM-CSIP Summer 2021 Flyer.png)][discord.gg/AcPYBCDWeA]
+[![Flyer of ACM-CSIP Summer 2021 Meeting Dates](ACM-CSIP_Summer_2021_Flyer.png)](discord.gg/AcPYBCDWeA)
 
+Hope to see you soon!
 
 - CSIP & ACM @ UGA
